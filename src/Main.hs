@@ -1,9 +1,9 @@
 module Main where
 
-import Eight
+import Nine
 
 readInput = do 
-    content <- readFile "input/08.txt"
+    content <- readFile "input/09.txt"
     pure $ lines content
 
 main :: IO ()
