@@ -1,6 +1,6 @@
 module Main where
 
-import Ten
+import Eleven
 
 readInput = do 
     content <- readFile "input/10.txt"
