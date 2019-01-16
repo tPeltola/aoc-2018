@@ -1,6 +1,6 @@
 module Main where
 
-import Eleven
+import Twelve
 
 readInput = do 
     content <- readFile "input/10.txt"
@@ -8,7 +8,8 @@ readInput = do
 
 main :: IO ()
 main = do
-    input <- readInput
+    --input <- readInput
+    input <- parse
     let solution1 = solve1 input
     putStrLn $ show solution1
     let solution2 = solve2 input
